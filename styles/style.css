@@ -1,3 +1,7 @@
 /*
     Style général du site
 */
+body
+{
+    background-color: rgb(172, 248, 172);
+}
