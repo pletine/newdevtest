@@ -3,5 +3,32 @@
 */
 body
 {
-    background-color: rgb(172, 248, 172);
+    background-color: rgb(224, 255, 224);
+}
+
+#bloc_page
+{
+    width: 900px;
+    margin: auto;
+}
+
+/* Header */
+header
+{
+    display: flex;
+}
+
+#logo
+{
+    height: 150px;
+    width: 150px;
+}
+
+/* Nav */
+
+
+/* Footer */
+footer ul
+{
+    list-style-type: none;
 }

@@ -1,0 +1,4 @@
+{
+    // Contrôle si les suggestions de langage PHP intégrées sont activées. Le support suggère les globales et variables PHP.
+	"php.suggest.basic": false,
+}
