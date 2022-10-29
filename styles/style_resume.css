@@ -108,9 +108,14 @@ img
     flex: 1;
 }
 
-div[class^="experience_"]
+div[id^="experience_"]
 {
     display: flex;
+}
+
+.exp_cadre
+{
+    width: 20%;
 }
 
 .exp_description
@@ -118,7 +123,15 @@ div[class^="experience_"]
     flex: 1;
 }
 
-/* Formations */
 
+/* Formations */
+.formations
+{
+    background-color: rgb(183, 191, 180);
+}
 
 /* Projets réalisés */
+.projets
+{
+    background-color: rgb(184, 184, 251);
+}
