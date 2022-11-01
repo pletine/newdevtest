@@ -1,14 +1,6 @@
 /* Import Font */
 
 
-/* Tests */
-div
-{
-    border: 2px solid black;
-    margin: 1%;
-    padding: 1%;
-}
-
 /* General */
 body
 {
@@ -22,17 +14,19 @@ body
     background-color: rgb(197, 255, 195);
 }
 
-details
-{
-    display: none;
-}
-
 /* Presentation / Resume */
 #resume
 {
     display: flex;
+}
+
+.personnel, .presentation
+{
     background-color: rgb(75, 131, 75);
     color: white;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 11px;
 }
 
 .presentation h1
@@ -41,14 +35,30 @@ details
     color: rgb(228, 228, 199);
 }
 
+.presentation p
+{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
 .presentation h2 
 {
     font-size: 1.4em;
     color: rgb(255, 255, 235);
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
-.objectifs, .coordonnes
+.objectifs
 {
+    font-size: 1.2em;
+}
+
+.coordonnes
+{
+    border-radius: 11px;
+    padding-left: 5%;
     font-size: 1.2em;
 }
 
@@ -81,12 +91,26 @@ img
 {
     text-align: center;
     flex: 1;
+    border-radius: 11px;
+}
+
+.specific
+{
+    background-color: rgb(157, 207, 157);
+    border-radius: 11px;
+    padding: 1%;
+}
+
+.specific h2
+{
+    color: black;
 }
 
 .objectifs
 {
     text-align: justify;
     padding: 1%;
+    border-radius: 11px;
 }
 
 .details
@@ -100,6 +124,32 @@ img
     justify-content: center;
     align-items: flex-start;
     width: 30%;
+    margin: 0.5%;
+    border-radius: 11px;
+    border: 1px dashed black;
+}
+
+.points_forts h2
+{
+    margin: 0;
+    padding: 0;
+    padding-left: 3%;
+}
+
+.points_forts h3
+{
+    text-decoration: underline;
+}
+
+.points_langues, .points_tech, .points_qualites, .points_hobbies
+{
+    border-radius: 11px;
+    background-color: rgb(48, 94, 48);
+    color: white;
+    padding-left: 3%;
+    padding-top: 0.1%;
+    padding-bottom: 0.1%;
+    margin: 1%;
 }
 
 /* Details experiences */
@@ -111,27 +161,61 @@ img
 div[id^="experience_"]
 {
     display: flex;
+    border-radius: 11px;
+    margin: 1%;
+    background-color: rgb(156, 243, 195);
+    ransition: box-shadow .3s;
+}
+
+div[id^="experience_"]:hover
+{
+    box-shadow: 0 0 20px rgba(33,33,33,.2);
+    border: 1px dashed rgb(71, 179, 120);
 }
 
 .exp_cadre
 {
     width: 20%;
+    text-align: center;
+    background-color: rgb(28, 61, 28);
+    color: white;
+    border-radius: 11px;
 }
 
 .exp_description
 {
     flex: 1;
+    margin-left: 1%;
 }
-
 
 /* Formations */
 .formations
 {
     background-color: rgb(183, 191, 180);
+    transition: box-shadow .3s;
+    border-radius: 10px;
+    padding: 1%;
+    margin: 1%;
+}
+
+.formations:hover
+{
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    border: 1px dashed black;
 }
 
 /* Projets réalisés */
 .projets
 {
     background-color: rgb(184, 184, 251);
+    padding: 1%;
+    margin: 1%;
+    border-radius: 11px;
+    margin-bottom: 5%;
+}
+
+/* Details */
+details
+{
+    display: none;
 }
