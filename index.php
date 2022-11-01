@@ -60,7 +60,7 @@
             <footer>
                 <h1>Liens : </h1>
                 <ul>
-                    <li>CV</li>
+                    <li><a href="resume.html">CV / Resume</a></li>
                     <li>LinkedIn</li>
                     <li>Sites de recrutements</li>
                     <li>Services proposés</li>
