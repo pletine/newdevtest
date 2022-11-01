@@ -1,0 +1,24 @@
+/* Style for mobile */
+@media all and (max-width: 1024px)
+{
+    #bloc_page
+    {
+        width: auto;
+    }
+
+    #resume, .details
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .personnel, .points_forts
+    {
+        width: auto;
+    }
+
+    .photo_profil
+    {
+        display: none;
+    }    
+}
