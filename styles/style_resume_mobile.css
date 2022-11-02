@@ -17,6 +17,11 @@
         width: auto;
     }
 
+    .exp_cadre
+    {
+        font-size: 1.5em;
+    }
+
     .photo_profil
     {
         display: none;
