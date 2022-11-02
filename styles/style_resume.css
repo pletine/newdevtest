@@ -1,5 +1,31 @@
 /* Import Font */
+@font-face {
+    font-family: 'Nobile';
+    src: url('fonts/Nobile/Nobile-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
 
+@font-face {
+    font-family: 'Questa';
+    src: url('fonts/Questa/2-Questa_Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('fonts/Quicksand/Quicksand-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('fonts/Ubuntu/Ubuntu-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
 
 /* General */
 body
@@ -33,6 +59,7 @@ body
 {
     font-size: 2.5em;
     color: rgb(228, 228, 199);
+    font-family: 'Quicksand';
 }
 
 .presentation p
@@ -42,6 +69,7 @@ body
     padding-left: 4%;
     padding-right: 4%;
 }
+
 .presentation h2 
 {
     font-size: 1.4em;
@@ -92,6 +120,7 @@ img
     text-align: center;
     flex: 1;
     border-radius: 11px;
+    font-family: 'Questa';
 }
 
 .specific
@@ -127,6 +156,7 @@ img
     margin: 0.5%;
     border-radius: 11px;
     border: 1px dashed black;
+    font-family: 'Nobile';
 }
 
 .points_forts h2
@@ -156,6 +186,7 @@ img
 #parcourt
 {
     flex: 1;
+    font-family: 'Ubuntu';
 }
 
 div[id^="experience_"]
@@ -164,7 +195,7 @@ div[id^="experience_"]
     border-radius: 11px;
     margin: 1%;
     background-color: rgb(156, 243, 195);
-    ransition: box-shadow .3s;
+    transition: box-shadow .3s;
 }
 
 div[id^="experience_"]:hover
@@ -180,6 +211,7 @@ div[id^="experience_"]:hover
     background-color: rgb(28, 61, 28);
     color: white;
     border-radius: 11px;
+    padding-top: 5%;
 }
 
 .exp_description
